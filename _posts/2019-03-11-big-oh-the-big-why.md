@@ -87,8 +87,8 @@ are two simple examples.
    avoid calculating `fib(3)` twice by storing its value in a table and looking
    it up: if a table has a value for the number 3, just use it; otherwise, store
    the value of `fib(3)` with the key 3. Doing this replaces the complexity of
-   calculating `fib(n)` with the complexity of looking up a hash table (on
-   average, _O(1)_).
+   calculating `fib(n)` with the complexity of looking up the key _n_ in a hash
+   table (on average, _O(1)_).
 
 The cost of these speedups, of course, is the _extra space_ required to store
 the data, as well as whatever gets dragged along with the use of that space. For
