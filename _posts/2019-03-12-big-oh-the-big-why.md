@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Big-O: The Big Why"
-date:   2019-03-10 11:23:59 -0600
-categories: algorithms toolkit
+date:   2019-03-12 11:23:59 -0600
+category: algorithms
+description: "Notes based on a lightning talk I gave to the Bootcamper's
+Collective Meetup in Denver."
 ---
+
 ### Preface
 
 I attend a weekly study group for budding software engineers, which aims to help
