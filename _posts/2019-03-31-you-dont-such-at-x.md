@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "You Don't Suck at X"
-date:   2019-03-30 11:23:59 -0600
+date:   2019-03-31 11:23:59 -0600
 category: learning
 description: "Hearing students of software development tell me they suck at something
 always disturbs me, and I hear this a lot. Here's why you shouldn't do it."
