@@ -42,7 +42,7 @@ veiled way of telling me you don't think you have the one essential trait of
 successful software developers. You think you're just being open and
 self-deprecating; in reality you're disqualifying yourself.
 
-Also, consider this bit of wisdom from [Austin Kleon](austinkleon.com):
+Also, consider this bit of wisdom from [Austin Kleon](http://austinkleon.com):
 
 ![Austin Kleon on Insecurity](/assets/img/fear.jpg)
 
