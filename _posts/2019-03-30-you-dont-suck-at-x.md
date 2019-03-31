@@ -97,5 +97,5 @@ for you:
 
 I promise: you won't suck at things you work hard at. Keep working, treat your
 insecurities (and [your
-failures](https://www.makers.com/blog/abby-wambach-make-failure-your-fuel-barnard-commencement-speech?guccounter=1&guce_referrer_us=aHR0cHM6Ly9kdWNrZHVja2dvLmNvbS8&guce_referrer_cs=CzBuoc2EJvO14hfvTsj4Kg)!)
+failures](https://www.makers.com/blog/abby-wambach-make-failure-your-fuel-barnard-commencement-speech)!)
 as fuel to propel you forward, and you'll probably accomplish wonderful things.
