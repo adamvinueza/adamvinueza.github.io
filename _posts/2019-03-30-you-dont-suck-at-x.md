@@ -3,8 +3,8 @@ layout: post
 title:  "You Don't Suck at X"
 date:   2019-03-30 11:23:59 -0600
 category: learning
-description: "Hearing a student of software development tell me they suck at something
-_always_ upsets me, and I hear this a lot. Here's why you shouldn't do it."
+description: "Hearing students of software development tell me they suck at something
+always disturbs me, and I hear this a lot. Here's why you shouldn't do it."
 ---
 I go to a lot of meetups with junior software developers and students, because
 I want to learn how to work better with them, and because I like helping.
