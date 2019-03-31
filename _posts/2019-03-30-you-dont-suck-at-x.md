@@ -14,7 +14,7 @@ of the form: "I suck at _X_".
 Common values for _X_:
 - mathematics
 - algorithms
-- _<random Javascript framework>_
+- _\<random Javascript framework\>_
 - "APIs" (whatever that means)
 
 The people who say this are signaling that they are aware of their flaws and/or
