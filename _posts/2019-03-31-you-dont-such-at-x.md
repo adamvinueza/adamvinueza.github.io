@@ -88,12 +88,10 @@ about all sorts of stuff, and it's not something we can simply choose not to be.
 The problem is that if you say you suck at _X_, you're doing two things at once:
 confessing an insecurity, and _saying you suck at X_. It's totally fine to be
 insecure--we all are who we are--but it's not fine to treat your self-professed
-flaws as enduring facts about yourself.
-
-If you're saying you suck at _X_ by way of rationalizing your fear of failure,
-or excusing your procrastination about studing _X_, you're allowing your
-insecurities to derail you. Don't do that! Instead, put your insecurities to
-work for you:
+flaws as enduring facts about yourself. If you're saying you suck at _X_ by way
+of rationalizing your fear of failure, or excusing your procrastination about
+studing _X_, you're allowing your insecurities to derail you. Don't do that!
+Instead, put your insecurities to work for you:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Treat your insecurity as a super power. <br><br>It’s what drives you to verify facts, enable you to play your own devil’s advocate, keeps you open to opinions and ideas different than your own.<br><br>It helps you gain trust, it makes you humble and keeps you human.</p>&mdash; Karen Cohen (@karen_meep) <a href="https://twitter.com/karen_meep/status/1111123109510344706?ref_src=twsrc%5Etfw">March 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
