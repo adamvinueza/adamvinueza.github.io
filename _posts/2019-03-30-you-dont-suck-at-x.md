@@ -42,12 +42,26 @@ veiled way of telling me you don't think you have the one essential trait of
 successful software developers. You think you're just being open and
 self-deprecating; in reality you're disqualifying yourself.
 
+Of course, you might be saying this in part because you've heard or read
+engineers you admire saying _exactly those words_, so you think their saying it
+is a way of giving you permission to say it, too. The problem, of course, is
+that context matters here.
+
+![Context is for kings](/assets/img/context.gif)
+
+When Steve Yegge or Jesse Frazelle or Coda Hale or Alice Goldfuss or some other
+justly internet-famous engineer says or writes some self-deprecating thing she
+might actually believe, keep in mind that she probably has very, very, _VERY_
+high standards for competence.  (That's something you'll learn,
+hopefully--having high standards for competence is a great trait to have.)
+Remember that the next time a superb engineer tells you what a moron she is.
+
 Also, consider this bit of wisdom from [Austin Kleon](http://austinkleon.com):
 
 ![Austin Kleon on Insecurity](/assets/img/fear.jpg)
 
-These self-deprecating confessions of sucking at things, I submit, can be boiled
-down to an admission of vulnerability. They all say: I'm scared.
+These self-deprecating confessions of sucking at things, I submit, can generally
+be boiled down to an admission of vulnerability. They all say: I'm scared.
 
 And you're _right_ to be scared! Learning new things can often be terrifying,
 for lots of reasons:
