@@ -9,7 +9,7 @@ _always_ upsets me, and I hear this a lot. Here's why you shouldn't do it."
 I go to a lot of meetups with junior software developers and students, because
 I want to learn how to work better with them, and because I like helping.
 One of the most common things I hear from them is a self-deprecating statement
-of the form: *I suck at _X_*.
+of the form: "I suck at _X_".
 
 Common values for _X_:
 - mathematics
