@@ -19,9 +19,9 @@ Common values for _X_:
 
 The people who say this are signaling that they are aware of their flaws and/or
 limits, that they're not full of themselves, and that they're both honest and
-straightforward. And these are excellent traits to have! But it also signals
-another very, troubling thing: *insecurity*. And insecurity is possibly the
-deadliest trait to have as a software developer.
+straightforward. And these are excellent traits to have! But it also often
+signals another, very troubling thing: *insecurity*. And insecurity is possibly
+the deadliest trait to have as a software developer.
 
 Let me explain.
 
