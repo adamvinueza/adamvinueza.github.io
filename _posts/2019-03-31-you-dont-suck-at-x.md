@@ -6,6 +6,8 @@ category: learning
 description: "Hearing students of software development tell me they suck at something
 always disturbs me, and I hear this a lot. Here's why you shouldn't do it."
 ---
+*Updated 2019-04-23*
+
 I go to a lot of meetups with junior software developers and students, because
 I want to learn how to work better with them, and because I like helping.
 One of the most common things I hear from them is a self-deprecating statement
@@ -37,17 +39,15 @@ not your knowledge of this or that language or framework or platform: it's your
 _ability to learn new things_. And your ability to learn new things depends,
 critically, on your confidence that you _can_ learn new things.
 
-Telling me you suck at math, or algorithms, or learning new languages, is just a
-veiled way of telling me you don't think you have the one essential trait of
-successful software developers. You think you're just being open and
-self-deprecating; in reality you're disqualifying yourself.
+Telling an interviewer you suck at math, or algorithms, or learning new
+languages, is just a veiled way of telling her you don't think you have the one
+essential trait of successful software developers. You think you're just being
+open and self-deprecating; in reality you may be disqualifying yourself.
 
 Of course, you might be saying this in part because you've heard or read
 engineers you admire saying _exactly those words_, so you think their saying it
 is a way of giving you permission to say it, too. The problem, of course, is
 that context matters here.
-
-![Context is for kings](/assets/img/context.gif)
 
 When Steve Yegge or Jesse Frazelle or Coda Hale or Alice Goldfuss or some other
 justly internet-famous engineer says or writes some self-deprecating thing she
@@ -65,7 +65,7 @@ Also, consider this bit of wisdom from [Austin Kleon](http://austinkleon.com):
 These self-deprecating confessions of sucking at things, I submit, can generally
 be boiled down to an admission of vulnerability. They all say: I'm scared.
 
-And you're _right_ to be scared! Learning new things can often be terrifying,
+And you'd be _right_ to be scared! Learning new things can often be terrifying,
 for lots of reasons:
 - exercising new "muscles"
   - you're studying math seriously for the first time
@@ -78,10 +78,10 @@ for lots of reasons:
   - if you don't learn _X_, you're stupid
   - if you don't learn _X_, you're a failure
 
-This is _therapy-deep_ stuff, and of course reading some guy's blog post isn't
-going to magically resolve issues you've lived with your whole adult life. But
-Kleon's advice for dealing with them is pretty good: remember that life
-is short, and _just keep working_.
+This is _therapy-deep_ stuff, and of course reading a blog post isn't going to
+magically resolve issues you've lived with your whole adult life. But Kleon's
+advice for dealing with them is pretty good: remember that life is short, and
+_just keep working_.
 
 To be clear, I'm _NOT_ saying you shouldn't be insecure. We're all insecure
 about all sorts of stuff, and it's not something we can simply choose not to be.
