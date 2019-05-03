@@ -94,14 +94,15 @@ class Node:
         self.next = None
 
     def insert(self, value):
-        node = Node(value)
-        node.next = self
-        self = node
+        if self.next is None:
+            self.next = Node(value)
+        else:
+            self.next.insert(value)
 
     def print(self):
         print(self.value, end=' ')
         if self.next is not None:
-            self.print(self.next)
+            self.next.print()
 ```
 Let's now transform the Node class to one supporting binary trees. We'll start
 by replacing `next` with `left` and `right`, and changing the constructor:
@@ -123,7 +124,7 @@ class Node:
     def print(self):
         print(self.value, end=' ')
         if self.next is not None:
-            self.print(self.next)
+            self.next.print()
 ```
 The `Node` class is broken now: `Node` instances don't have a `next` property,
 but `left` and `right` properties instead, so we need to fix the insert and
