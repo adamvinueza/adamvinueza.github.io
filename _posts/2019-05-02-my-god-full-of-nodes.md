@@ -3,6 +3,7 @@ layout: post
 title:  "My God It's Full of Nodes"
 date:   2019-04-30 11:23:59 -0600
 categories: data-structures
+description: "Some remarks on the difference between coding and engineering."
 ---
 Lots of data structures make use of a simple data structure known as a _node_.
 A node has two properties: a _value_--some kind of manipulatable content--and
