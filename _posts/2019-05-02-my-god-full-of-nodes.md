@@ -75,8 +75,9 @@ degenerate case of binary search trees, and that both are instances of directed
 acyclic graphs, gives you power over both the code you're writing _and the
 problems you're solving_. For example, it may be useful to treat a data
 structure in one context like a linked list and in another context like a DAG.
-Making these decisions is only possible when you know how these data structures
-the way a mechanical engineer understands how watches are like windmills.
+Making these decisions is only possible when you understand these data
+structures the way a mechanical engineer understands how watches are like
+windmills.
 
 # Transformations
 
