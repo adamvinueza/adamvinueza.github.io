@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My God It's Full of Nodes"
-date:   2019-04-30 11:23:59 -0600
+date:   2019-05-02 11:23:59 -0600
 categories: data-structures
 description: "Some remarks on the difference between coding and engineering."
 ---
