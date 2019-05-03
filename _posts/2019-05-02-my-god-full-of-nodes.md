@@ -179,7 +179,7 @@ relationships between nodes--i.e., on what kind of graph it is.
 
 I hope it's clearer now why issues like this are similar to issues of how large
 a gear must be, how many teeth it must have, and what shape the teeth must be,
-in order for the mechanism to work the way it is supposed to work.
+in order for some mechanism to work the way it is supposed to work.
 
 # Relative Importance of Data Structures and Code
 
@@ -200,3 +200,33 @@ is the watchmaker with whether the underlying machinery is built properly: for
 the programmer as it is for the watchmaker and the windmill designer, it is the
 _design_--the way the disparate parts work together to form a single functional
 object--that should be foremost in mind.
+
+# Learning to Think Like an Engineer
+
+One big problem beginning programmers face is that they simply _don't know how_
+to think in this way. They're still trying to master basic programming concepts
+and techniques, and can't yet see the larger patterns--or to the extent they
+can, they don't know _how to make intelligent judgments about which designs to
+choose or why_. This is completely normal. Beginning engineers and architects and designers
+don't start out knowing how to think in this way, either. Everyone has to learn
+the mechanics of their trade.
+
+But so many programmers don't even realize that this way of thinking is actually
+valuable, that it makes them better at what they do. Design, according to this
+very common way of thinking, is a "soft" skill, akin to the ability to make
+things look pretty. They don't recognize design as vital to the creative process
+of making functional things.
+
+The first, most critical step to take is to see that thinking this way _has
+value_. If you can see that it has value, you will strive to master the concepts
+and techniques, so you can stop focusing on the minutae of coding and start
+focusing on the larger aspects of what makes good programs good: on what it
+means for a program to be well or poorly designed. It'll be a gradual
+process; there's no set of classes to take or books to read to master this
+stuff, you mainly have to practice and think. (Though classes can be great, and
+you should read as much as you can!) Eventually, though, you'll realize that
+while thinking through a problem you almost unconsciously rejected a whole
+category of data structures to settle on, say, priority queues, because you
+could just _see_ that they helped with the particular kind of problem you had.
+And that's what makes all that study and practice worthwhile.
+
