@@ -169,21 +169,17 @@ Doing this is akin to changing the shape of the gears so that they will match
 the requirements of the machine you're trying to build. The basic functionality
 is _exactly the same_: nodes merely hold values and connect to other nodes.
 
-To see how linked lists relate to binary search trees, merely insert values into
-a binary-search-tree-enabled `Node` in ascending order. Only the right side of
-the tree will be populated, so the `right` property of the binary-search-enabled
-`Node` is effectively the `next` property of the linked-list `Node`.
-
 If you want to create a graph instead of a binary search tree or linked list,
 how would you make the transformation? Well, you can have an arbitrary number of
 connections to other nodes, so our `Node` class would have a property holding a
 _list_ of connections instead of a `next` or `left` or `right` property.
 Inserting a node would be a matter of connecting it to a known node, so
 precisely how the insertion would work depends on what rules govern the
-relationships between nodes--i.e., on what kind of graph it is. Issues like this
-are rather like asking questions about how large a gear must be, how many teeth
-it must have, and what shape the teeth must be, in order for the mechanism to
-work the way it is supposed to work.
+relationships between nodes--i.e., on what kind of graph it is.
+
+I hope it's clearer now why issues like this are similar to issues of how large
+a gear must be, how many teeth it must have, and what shape the teeth must be,
+in order for the mechanism to work the way it is supposed to work.
 
 # Relative Importance of Data Structures and Code
 
