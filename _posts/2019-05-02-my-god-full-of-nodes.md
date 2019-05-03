@@ -54,8 +54,8 @@ So far, we've been thinking about nodes at a fairly low level--about very basic
 data structures. Let's pull ourselves back a bit to see the larger picture.
 
 It's easy to think that the usefulness of a thing is evident in the number of
-features it has: call this the "swiss-army knife" approach to design. Swiss-army
-knives are useful because of the number of its attachments: the more things
+features it has: call this the "swiss-army knife" approach to design. A swiss-army
+knife is useful because of the number of its attachments: the more things
 attached to it, the more useful it is. This way of understanding usefulness has
 its place, to be sure--swiss-army knives _are_ useful--but nodes show us a very
 different approach to utility.
