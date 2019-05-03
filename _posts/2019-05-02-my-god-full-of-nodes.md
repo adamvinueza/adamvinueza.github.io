@@ -105,19 +105,18 @@ class Node:
             self.next.print()
 ```
 A key thing to notice here is that a linked list is literally being made out of
-`Node` instances. A linked list simply _is_ one or more `Node`s linked together.
-Another way of putting this is to say that a linked list is either null, or a
-`Node` whose `next` value is a linked list. This recursive way of understanding
-linked lists is important, because we'll be understanding binary search trees in
-the same way.
+`Node` instances. A linked list simply _is_ one or more `Node` instances linked
+together.  Another way of putting this is to say that a linked list is either
+null, or a `Node` whose `next` value is a linked list. This recursive way of
+understanding linked lists is important, because we'll be understanding binary
+search trees in the same way.
 
 Let's now transform the Node class to one supporting binary search trees. First,
-let's be explicit about what a binary search tree is: a binary search tree is a
-collection of nodes, where each node has a value and left and right subtrees,
-where the subtrees of that node (referred to as the _root_ node) have the
-following property: every value on the left subtree is less than the value of
-the root, and every value on the right subtree is greater than the value of the
-root.
+let's be explicit about what a binary search tree is: it's a collection of
+nodes, where each node has a value and left and right subtrees, where the
+subtrees of that node (referred to as the _root_ node) have the following
+property: every value on the left subtree is less than the value of the root,
+and every value on the right subtree is greater than the value of the root.
 
 This means that inserting a new value into a binary search tree, and traversing
 it to print its values, is going to be more complicated than doing the same
@@ -153,13 +152,6 @@ whose `left` and `right` values are binary search trees. This means that
 whenever we're doing _anything_ with a binary search tree anywhere in the
 tree, what we're dealing with _is itself a binary search tree_.
 
-Our linked-list insert method is recursive in the same way. If you want to
-insert a value into a list, which is a `Node`, check to see if we're at the end
-of the list--i.e., if its `next` property is null: if it is, make a new `Node`
-with that value and set it as the value of `next`. Otherwise, just call `insert`
-on the value of `next`. This helps us understand how to change this method for
-use with binary search trees.
-
 What makes insertion into a binary search tree different is that, because there
 are `left` and `right` nodes instead of a `next` node, there has to be a rule
 determining when to choose which way to go (left or right). The rule is simple:
@@ -170,9 +162,10 @@ because the value is already in the tree!) Of course, if the current node is
 null (`None` in Python), make it into a new `Node`.
 
 Printing the tree follows a similar principle. We'll print the values in
-increasing order of value, which means calling the print method on the left
-subtree, printing the root's value,  then calling the print method on the right
-subtree.
+increasing order of value, which, if we're understanding the tree as a recursive
+structure, means we'll print the left subtree in increasing order, then print
+the root value, then print the right tree in increasing order. (This is much
+simpler to write than it is to explain, as you'll see.)
 
 The result gives us code like this:
 ```python
