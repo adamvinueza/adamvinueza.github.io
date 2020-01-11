@@ -126,6 +126,13 @@ Hello, World!
 Congratulations! You've pulled your first image, written your first Dockerfile,
 and built and run your first docker container.
 
+By the way, if you run `docker image ls | grep alpine` from your shell, you'll
+see that the size of the image is less than 6 MB. (The size of the container in
+this case will be precisely the same, for reasons that [go way beyond the scope
+of this post](https://docs.docker.com/storage/storagedriver/).) So docker images
+and containers can be very, very small, especially as compared to, virtual
+machines running comparable OS's.
+
 ## Can I debug my code in a Docker container?
 In general, the answer is: Yes! The details will vary depending on the debugging
 tool you use, your development environment, and the programming language.
