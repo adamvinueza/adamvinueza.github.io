@@ -30,16 +30,16 @@ environment--OS, shell commands, etc. You can build an individual container to
 hold your program, but will probably create other containers to hold your
 program's dependencies; for example, if your program uses a MySql database,
 you'll want to run MySql inside its own container.  Containers can communicate
-with one another in the same way that different programs commicate with one
+with one another in the same way that different programs communicate with one
 another--via the same protocols and over the same ports.
 
 Docker has a repository of pre-built images for general use, called [Docker
 Hub](https://hub.docker.com). These are images of things like standard operating
-systems (e.g., Ubuntu Linux), commonly used resources such as MySql and Redis,
-and operating systems with programming environments pre-installed and
+systems, such as Ubuntu or Alpine Linux, commonly used resources such as MySql
+and Redis, and operating systems with programming environments pre-installed and
 configured, such as NodeJS and Golang. Generally you install your programs on
-one of the OS images, or those with OS-and-programming-environments, and at
-runtime connect those programs to resources on other containers.
+one of the OS images, or those with preconfigured programming environments, and
+at runtime connect those programs to resources on other containers.
 
 Docker is generally run from a shell, using the command line. These are the
 probably the most commonly run Docker CLI (command-line interface) commands:
@@ -85,6 +85,7 @@ Provides the disk usage taken up by your Docker environment.
 
 #### docker system prune
 Removes unused Docker resources (containers and/or images).
+
 To get the basic usage of these commands, you can generally type
 ```
 docker help [command]
