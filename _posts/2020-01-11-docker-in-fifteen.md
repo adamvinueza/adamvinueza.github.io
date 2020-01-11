@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker in five minutes"
+title:  "Docker in fifteen minutes"
 date:   2020-01-10 11:23:59 -0700
 category: docker learning
 description: "You have to start working with Docker ASAP. The Docker docs are
@@ -54,7 +54,8 @@ Creates an image from a Dockerfile.
 Creates a container from an image and starts it.
 
 #### docker ps
-Lists the containers currently running.
+Lists the containers currently running. `docker ps -a` lists all the containers
+both running and stopped.
 
 #### docker exec
 Provides access to a running container.
@@ -94,9 +95,29 @@ and get useful information.
 
 ## Wait, that's all your going to say about the commands?
 
-I could explain them in detail, but that would take a lot longer than five
-minutes, and you're much better off just starting to use Docker and figuring
-stuff out.
+I could explain them in detail, but that would take a lot longer than the
+fifteen minutes I've allotted, minutes, and you're much better off just starting
+to use Docker and figuring stuff out.
+
+## Can you at least get me started doing something?
+
+You bet! This should take five to seven minutes, total. First, install and start
+Docker: [create a Docker account](https://hub.docker.com/signup) (it's free,
+easy, and they won't ever send you spam), then follow the instructions to
+install Docker Desktop. Once it's running and you've logged in, open a shell and
+run the commands below:
+```
+mkdir hello-docker
+cd hello-docker
+echo 'FROM alpine:latest\nCMD [ "echo", "Hello, World!" ]' > Dockerfile
+docker build -t hello-world:latest .
+docker run hello-world
+```
+The commands above create a directory containing a Dockerfile. The Dockerfile
+just creates a container from Docker's Alpine Linux image (which will be
+downloaded from Docker Hub), and run the `echo Hello, World!` command from the
+running container that's built from the image when you run the `docker build`
+command.
 
 ## Can I debug my code in a Docker container?
 In general, the answer is: Yes! The details will vary depending on the debugging
