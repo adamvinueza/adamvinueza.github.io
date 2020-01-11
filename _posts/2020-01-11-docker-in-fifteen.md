@@ -130,7 +130,7 @@ By the way, if you run `docker image ls | grep alpine` from your shell, you'll
 see that the size of the image is less than 6 MB. (The size of the container in
 this case will be precisely the same, for reasons that [go way beyond the scope
 of this post](https://docs.docker.com/storage/storagedriver/).) So docker images
-and containers can be very, very small, especially as compared to, virtual
+and containers can be very, very small, especially as compared to virtual
 machines running comparable OS's.
 
 ## Can I debug my code in a Docker container?
