@@ -119,6 +119,13 @@ downloaded from Docker Hub), and run the `echo Hello, World!` command from the
 running container that's built from the image when you run the `docker build`
 command.
 
+After running those commands, you should see this:
+```
+Hello, World!
+```
+Congratulations! You've pulled your first image, written your first Dockerfile,
+and built and run your first docker container.
+
 ## Can I debug my code in a Docker container?
 In general, the answer is: Yes! The details will vary depending on the debugging
 tool you use, your development environment, and the programming language.
