@@ -9,9 +9,10 @@ it is."
 ---
 ## What is Docker?
 
-Docker allows you to run your software inside a thing called a container that
-can be built according to a recipe you can specify (called a "Dockerfile"), and
-that will run on any machine that runs Docker itself.
+[Docker](https://www.docker.com) allows you to run your software inside a thing
+called a container that can be built according to a recipe you can specify
+(called a "Dockerfile"), and that will run on any machine that runs Docker
+itself.
 
 ## Why is Docker useful?
 
@@ -22,58 +23,67 @@ cost depends on resource usage.
 
 ## How do I use Docker?
 
-Docker runs _containers_ in which you can run your software. A container is
-created from an _image_, which is basically a series of instructions for
-creating a small virtual environment--OS, shell commands, etc. You can build an
-individual container to hold your program, but will probably create other
-containers to hold your program's dependencies; for example, if your program
-uses a MySql database, you'll want to run MySql inside its own container.
-Containers can communicate with one another in the same way that different
-programs commicate with one another--via the same protocols and over the same
-ports.
+Docker runs _containers_ in which you can run your software. [A container is
+created from an _image_](https://docs.docker.com/engine/docker-overview/#docker-objects),
+which is basically a series of instructions for creating a small virtual
+environment--OS, shell commands, etc. You can build an individual container to
+hold your program, but will probably create other containers to hold your
+program's dependencies; for example, if your program uses a MySql database,
+you'll want to run MySql inside its own container.  Containers can communicate
+with one another in the same way that different programs commicate with one
+another--via the same protocols and over the same ports.
+
+Docker has a repository of pre-built images for general use, called [Docker
+Hub](https://hub.docker.com). These are images of things like standard operating
+systems (e.g., Ubuntu Linux), commonly used resources such as MySql and Redis,
+and operating systems with programming environments pre-installed and
+configured, such as NodeJS and Golang. Generally you install your programs on
+one of the OS images, or those with OS-and-programming-environments, and at
+runtime connect those programs to resources on other containers.
 
 Docker is generally run from a shell, using the command line. These are the
 probably the most commonly run Docker CLI (command-line interface) commands:
-#### docker pull
-Pulls an image from the Docker image repository.
 
-### docker build
+#### docker pull
+Pulls an image from Docker Hub.
+
+#### docker build
 Creates an image from a Dockerfile.
 
-### docker run
+#### docker run
 Creates a container from an image and starts it.
 
-### docker ps
+#### docker ps
 Lists the containers currently running.
 
-### docker exec
+#### docker exec
 Provides access to a running container.
 
-### docker stop
+#### docker stop
 Stops a running container, gracefully.
 
-### docker kill
+#### docker kill
 Stops a running container, gracelessly.
 
-### docker commit
+#### docker commit
 If you have made changes to a container, this will create an image from it.
 
-### docker push
-Pushes an image to the Docker image repository.
+#### docker push
+Pushes an image to Docker Hub, or to a private repository you specify.
 
-### docker images
+#### docker images
 Lists the images stored on your machine.
 
-### docker rm
+#### docker rm
 Deletes a (stopped) container.
 
-### docker rmi
+#### docker rmi
 Deletes a stored image.
 
-### docker system df
+#### docker system df
 Provides the disk usage taken up by your Docker environment.
 
-### docker system prune
+#### docker system prune
 Removes unused Docker resources (containers and/or images).
 ```
 To get the basic usage of these commands, you can generally type
