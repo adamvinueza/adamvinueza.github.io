@@ -85,7 +85,6 @@ Provides the disk usage taken up by your Docker environment.
 
 #### docker system prune
 Removes unused Docker resources (containers and/or images).
-```
 To get the basic usage of these commands, you can generally type
 ```
 docker help [command]
