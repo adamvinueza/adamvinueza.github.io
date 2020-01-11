@@ -67,7 +67,8 @@ Stops a running container, gracefully.
 Stops a running container, gracelessly.
 
 #### docker commit
-If you have made changes to a container, this will create an image from it.
+If you have made changes to a container, this will create an image from it. This
+is useful if you want to customize an image to suit your specific needs. 
 
 #### docker push
 Pushes an image to Docker Hub, or to a private repository you specify.
