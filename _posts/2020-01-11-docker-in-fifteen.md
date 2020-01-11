@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker in fifteen minutes"
 date:   2020-01-10 11:23:59 -0700
-category: docker, learning
+categories: [docker, learning]
 description: "You have to start working with Docker ASAP. The Docker docs are
 pretty good, but maybe you need something a bit more practical, i.e., fast? Here
 it is."
