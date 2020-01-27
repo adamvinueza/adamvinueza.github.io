@@ -54,17 +54,17 @@ const nowInBerlinString = moment().tz('Europe/Berlin').format();
 // 2020-01-26T08:00:00+0600 (assuming machine set to Chicago time)
 const nowInChicagoString = moment().format();
 
-// 2020-01-26T14:00:00Z (Universal Time Coordinated, or Greenwich Mean Time)
+// 2020-01-26T14:00:00Z (Universal Time Coordinated or UTC)
 const nowUtcString = moment().utc().format();
 ```
-(As the comments above indicate, Berlin is 1 hour ahead of Greenwich Mean Time,
-and Chicago is 6 hours behind Greenwich Mean Time.)
+(As the comments above indicate, Berlin is 1 hour ahead of UTC,
+and Chicago is 6 hours behind UTC.)
 
 Note that `format` by default returns a string in [ISO 8601
 format](https://en.wikipedia.org/wiki/ISO_8601). You can specify other formats
 by passing [format strings]() into `format`:
 ```
-// Jan 26th 2020 2 PM (Universal Time Coordinated, or Greenwich Mean Time)
+// Jan 26th 2020 2 PM (Universal Time Coordinated)
 const nowUtcString = moment().utc().format('MMM Do YYYY hA');
 const nowUtcIso8601String = moment().utc().format(moment.defaultFormat);
 ```
