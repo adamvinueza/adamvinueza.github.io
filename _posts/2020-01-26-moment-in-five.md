@@ -84,7 +84,9 @@ const parsed = moment('2020-01-26T15:00:00+0100');
 If you want to convert the time zone for a date string:
 ```
 // Convert a time in Berlin to the corresponding time in Chicago
-const parsedInChicago = moment('2020-01-26T15:00:00+0100').tz('America/Chicago');
+const parsedInChicago = 
+  moment('2020-01-26T15:00:00+0100')
+    .tz('America/Chicago');
 // 2020-01-26T08:00:00+0600
 const chicagoString = parsedInChicago.format();
 ```
@@ -93,11 +95,13 @@ Moment is forgiving. This means you can do this:
 ```
 const wrongDate = moment('01/12/2016', 'YYYY-MM-DD')
 console.log(wrongDate.isValid()) // true
-console.log(wrongDate.format()) // 2001-12-20T00:00:00-06:00
+// 2001-12-20T00:00:00-06:00
+console.log(wrongDate.format())
 ```
 Do not be forgiving. _Always_ be strict:
 ```
-const wrongDate = moment('01/12/2016', 'YYYY-MM-DD', true) // true == be strict!
+// true == be strict!
+const wrongDate = moment('01/12/2016', 'YYYY-MM-DD', true)
 console.log(wrongDate.isValid()) // false
 ```
 
