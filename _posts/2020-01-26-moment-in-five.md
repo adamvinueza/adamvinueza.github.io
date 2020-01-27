@@ -73,10 +73,10 @@ const nowUtcIso8601String = moment().utc().format(moment.defaultFormat);
 #### A quick note about ISO 8601 string functions
 **You should use Moment's `format` function to get the ISO 8601 string, if that's
 what you want.** But Moment also has a `toISOString` method, which by default
-returns an ISO 8601 string set to UTC. The reason is to make this function
-comport with the way the built-in JavaScript `Date.toISOString()` behaves. If
-you pass `true` into `toISOString`, whatever time zone the Moment object is set
-to is retained when creating the string.
+returns an ISO 8601 string set to UTC. This was done to make Moment comport
+better with the way the built-in JavaScript `Date.toISOString()` behaves. If you
+pass `true` into `toISOString`, whatever time zone the Moment object is set to
+is retained when creating the string.
 
 ## Parsing dates
 
