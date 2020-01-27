@@ -2,7 +2,7 @@
 layout: post
 title:  "Moment Timezone in five minutes"
 date:   2020-01-26 11:23:59 -0600
-categories [momentjs, javascript, learning]
+categories: [momentjs, javascript, learning]
 description: "The bare minimum to know about the moment-timezone library."
 ---
 ## Moment.js and Moment Timezone
