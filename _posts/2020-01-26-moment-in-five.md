@@ -62,7 +62,8 @@ and Chicago is 6 hours behind UTC.)
 
 Note that `format` by default returns a string in [ISO 8601
 format](https://en.wikipedia.org/wiki/ISO_8601). You can specify other formats
-by passing [format strings]() into `format`:
+by passing [format strings](https://momentjs.com/docs/#/displaying/format/) into
+`format`:
 ```
 // Jan 26th 2020 2 PM (Universal Time Coordinated)
 const nowUtcString = moment().utc().format('MMM Do YYYY hA');
