@@ -29,9 +29,10 @@ which is basically a series of instructions for creating a small virtual
 environment--OS, shell commands, etc. You can build an individual container to
 hold your program, but will probably create other containers to hold your
 program's dependencies; for example, if your program uses a MySql database,
-you'll want to run MySql inside its own container.  Containers can communicate
-with one another in the same way that different programs communicate with one
-another--via the same protocols and over the same ports.
+you'll want to run MySql inside its own container. Docker creates a runtime
+enviromnent in which standard protocols can be used to communicate over standard
+ports, so programs running in different containers can communicate with one
+another as they would normally.
 
 Docker has a repository of pre-built images for general use, called [Docker
 Hub](https://hub.docker.com). These are images of things like standard operating
@@ -97,7 +98,7 @@ and get useful information.
 ## Wait, that's all your going to say about the commands?
 
 I could explain them in detail, but that would take a lot longer than the
-fifteen minutes I've allotted, minutes, and you're much better off just starting
+fifteen minutes I've allotted, and you're much better off just starting
 to use Docker and figuring stuff out.
 
 ## Can you at least get me started doing something?
