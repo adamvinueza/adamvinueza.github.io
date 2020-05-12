@@ -104,7 +104,7 @@ to use Docker and figuring stuff out.
 ## Can you at least get me started doing something?
 
 You bet! This should take five to seven minutes, total. First, install and start
-Docker: [create a Docker account](https://hub.docker.com/signup) (it's free,
+Docker: [create a Docker account](https://hub.docker.com/signup) (it's free and
 easy, and they won't ever send you spam), then follow the instructions to
 install Docker Desktop. Once it's running and you've logged in, open a shell and
 run the commands below:
