@@ -29,6 +29,8 @@ Once installed, you can use it in your Node code files by requiring it:
 ```
 const moment = require('moment-timezone');
 ```
+**N.B. In what follows, presume that `moment` names the moment-timezone
+module.**
 
 ## Basic usage
 
